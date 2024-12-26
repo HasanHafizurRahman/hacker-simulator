@@ -1,0 +1,27 @@
+body {
+  background-color: #000;
+  color: #0f0;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  background: #333;
+  color: #0f0;
+  border: 1px solid #0f0;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #222;
+  color: #555;
+  cursor: not-allowed;
+}
